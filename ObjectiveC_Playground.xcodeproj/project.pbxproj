@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07FC9B781F432166009093D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FC9B771F432166009093D3 /* main.m */; };
+		07FC9B801F43218E009093D3 /* SingletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FC9B7F1F43218E009093D3 /* SingletonManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		07FC9B741F432166009093D3 /* ObjectiveC_Playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC_Playground; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FC9B771F432166009093D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07FC9B7E1F43218E009093D3 /* SingletonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonManager.h; sourceTree = "<group>"; };
+		07FC9B7F1F43218E009093D3 /* SingletonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				07FC9B771F432166009093D3 /* main.m */,
+				07FC9B7E1F43218E009093D3 /* SingletonManager.h */,
+				07FC9B7F1F43218E009093D3 /* SingletonManager.m */,
 			);
 			path = ObjectiveC_Playground;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FC9B781F432166009093D3 /* main.m in Sources */,
+				07FC9B801F43218E009093D3 /* SingletonManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
